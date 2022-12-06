@@ -1,0 +1,239 @@
+
+
+
+
+#about_visual{
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/about/visual.png") center;
+    background-size: cover ;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#about_visual .visual_dimmed{
+    width: 100vw;
+    height: 100vh;
+    background: #1b1b1b;
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+#fake_section{
+    height: 100vh;
+    background: transparent;
+    position: relative;
+}
+
+#about_in01{
+    width: 790px;
+    height: 701px;
+    position: absolute;
+    top: 267px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+#about_in01 .title{
+    margin-bottom: 176px;
+}
+
+
+#about_in01 .container01 .text_box01{
+    position: absolute;
+    bottom: 0;
+    left: 86px;
+}
+
+
+
+
+
+
+
+
+#about{
+    height: 3716px;
+    position: relative;
+}
+
+
+#about .container02{
+    width: 1350px;
+    height: 2237px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#about .container02 .box02{
+    width: 874px;
+    height: 811px;
+    position: absolute;
+    right: 0;
+    top: 235px;
+}
+
+
+#about .container02 .box02 .text_box02{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+#about .container02 .box03{
+    width: 1037px;
+    height: 990px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#about .container02 .box03 >div:nth-child(1){
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+#about .container02 .box03 >div:nth-child(2){
+    position: absolute;
+    right: 0;
+    top: 125px;
+}
+
+
+#about_in .container03{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 1480px;
+    background: white;
+}
+
+
+
+#about_in .container03 .sc03_text_box{
+    position: absolute;
+    left: 50%;
+    top: 140px;
+    transform: translateX(-50%);
+}
+
+
+.about_slider_container {
+    position: absolute;
+    top: 416px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1687px;
+    height: 827px;
+}
+
+
+.about_slider_img{
+    width: 1687px;
+    height: 827px;
+}
+
+.about_slider_img .slick-slide{
+    position: relative;
+}
+
+
+
+#about_in .container03 .slider_arrow{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 1781px;
+    height: 95px;
+
+}
+
+
+#about_in .container03 .slider_arrow >div{
+    cursor: pointer;
+}
+
+
+#about_in .container03 .action{
+    position: absolute;
+    bottom: 164px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+#about_in .container03 .action >div{
+
+}
+
+#about_in .container03 .action >div:nth-child(4){
+    margin-right: 0;
+}
+
+#about_in .container03 .action > div:hover{
+    background: #3d3d3d;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -89px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+.slick-dots li{
+    list-style: none;
+    float: left;
+    border: none;
+    text-indent: -9999px;
+    outline: 0;
+    cursor: pointer;
+    height: 4px;
+    width: 18px;
+    margin-right: 9px;
+    transition: all ease-in-out 250ms;
+    transition-delay: 100ms;
+    background-color: #d8d8d8;
+    opacity: 1;
+}
+
+.slick-dots li button {
+    display: none;
+}
+
+
+
+.slick-dots li:hover{
+    background: #7c7c7c;
+}
+
+
+
+.slick-dots li.slick-active {
+    background: #3b3b3b;
+    width: 54px;
+}
+
+
+

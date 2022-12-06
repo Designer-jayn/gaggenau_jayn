@@ -1,0 +1,127 @@
+
+
+#product01{
+    height: 100vh;
+}
+
+
+
+
+
+
+#product_page .line{
+    position: absolute;
+    top: 81px;
+    left: 0;
+    background: #5a5a5a;
+    width: 100vw;
+    height: 1px;
+}
+
+
+#product_page .up{
+    width: 100vw;
+    height: 369px;
+    position: relative;
+}
+
+
+#product_page .up .number{
+    position: absolute;
+    left: 0;
+    bottom: -40%;
+    /*width: 340px;*/
+    height: 347px;
+    z-index: 300;
+}
+
+#product_page .up .number .small_number{
+    margin-bottom: 26px;
+    margin-left: 233px;
+}
+
+
+#product_page .up .number .big_number >div{
+    float: left;
+}
+#product_page .up .number .big_number >div:nth-child(1){
+    margin-right: 41px;
+}
+
+
+#product_page .up .title_box{
+    position: absolute;
+    left: 404px;
+    bottom: 79px;
+    width: 518px;
+    height: 111px;
+
+}
+#product_page .up .title_box >div:nth-child(1){
+    margin-bottom: 43px;
+}
+
+
+
+#product_page .up .button{
+    position: absolute;
+    right: 178px;
+    top: 259px;
+    cursor: pointer;
+}
+
+
+#product_page .up .button > div {
+    width: 18px;
+    height: 11px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+}
+
+
+
+#product_page .up .button:hover >div{
+    transform: translate(-10%, -50%);
+}
+
+
+.change{
+    width: 185px;
+    height: 296px;
+    overflow:hidden;
+}
+
+
+.change .inner{
+    transition:all 1s;
+}
+
+#product_slider{
+    width: 100vw;
+    height: 829px;
+    position: absolute;
+    left: 0;
+    top: 368px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#product_slider:hover{
+    opacity: 50%;
+}
+
+
+#product_slider .slick-slide{
+    /*margin: 0 75px;*/
+    margin-right: 75px;
+    cursor: pointer;
+    outline: none;
+}
+
+#product_page .up .button:hover .slick-slide{
+    margin-right: 0;
+}
+

@@ -2,7 +2,7 @@
 
 
 #home_connect{
-    height: 4940px;
+    /* height: 4940px; */
     background: white;
 }
 
@@ -145,7 +145,8 @@
 #home_connect_in .contents_03_01{
     position: absolute;
     top: 184px;
-    left: 146px;
+    left: 50%;
+    transform: translateX(-53%);
     width: 1551px;
     height: 799px;
 }
@@ -179,7 +180,8 @@
 #home_connect_in .contents_03_02{
     position: absolute;
     bottom: 174px;
-    left: 93px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 1712px;
     height: 1206px;
 }

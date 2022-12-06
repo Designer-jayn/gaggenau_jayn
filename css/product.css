@@ -1,7 +1,8 @@
 
 
 #product01{
-    height: 100vh;
+    height: 111vh;
+    max-height: 1365px;
 }
 
 
@@ -65,7 +66,7 @@
 
 #product_page .up .button{
     position: absolute;
-    right: 178px;
+    right: 12vw;
     top: 259px;
     cursor: pointer;
 }
@@ -109,8 +110,15 @@
     transition: 1s;
 }
 
-#product_slider:hover{
+#product_slider img{
+    width: 85vw;
+    height: 77vh;
+    object-fit: cover;
+}
+
+#product_slider img:hover{
     opacity: 50%;
+    transition: 1s;
 }
 
 

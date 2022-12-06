@@ -419,7 +419,7 @@ $(function () {
         // scroll event section  ===
         //==========================
 
-        $('#section01 .half_img').css('width',`${ (960) + scrollTop * -5.0}`);
+        $('#section01 .half_img').css('width',`${ (1300) + scrollTop * -5.0}`);
 
         // $('#section01 .half_img').css('width','100px');
 

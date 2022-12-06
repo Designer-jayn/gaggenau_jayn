@@ -96,7 +96,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 960px;
+    width: 50vw;
     overflow: hidden;
     transition:all .1s;
 }
@@ -148,9 +148,11 @@
 
 #section01 .visual01 > .text_main_container{
     position: absolute;
-    right: 17%;
-    top: 245px;
+    left: 50%;
+    top: 280px;
+    transform: translateX(55%);
 }
+
 #section01 .visual01 > div:nth-child(4) > div:nth-child(1){
     margin-bottom: 42px;
 }
@@ -347,6 +349,7 @@
 
 
 .swiper-container {
+    margin-left: 30px;
     position: absolute;
     left: 0;
     bottom: 164px;
@@ -410,21 +413,28 @@
 
 #section05 > div{
     width: 50vw;
+    height: 809px;
     background-size: cover;
     flex: 1;
     position: relative;
     cursor: pointer;
     overflow: hidden;
+    background-repeat: no-repeat;
 
 }
 
 #section05 .part01{
-    background: url("../img/main/section05/main_sc05_img01.png") center;
+    background: url("../img/main/section05/main_sc05_img01.png") center,
+    linear-gradient(#57565b, #363638);
+    background-repeat: no-repeat;
 }
 
 
 #section05 .part02{
-    background: url("../img/main/section05/main_sc05_img02.png") center;
+    background: url("../img/main/section05/main_sc05_img02.png") center,
+    linear-gradient(#585c5f, #343a3d);
+
+    background-repeat: no-repeat;
 }
 
 
@@ -640,19 +650,29 @@
 }
 
 #section07 .img_box .slide_img{
-    width: 974px;
-    height: 609px
-
+    width: 50.8vw;
+    height: 609px;
 }
+
+#section07 .img_box .slide_img img{
+    width: 50.8vw;
+    height: 609px;
+    object-fit: cover;
+}
+
+
+
+
 
 #section07 .img_box .number_box{
     position: absolute;
     width: 94px;
     height: 360px;
     background: white;
-    right: 0;
     bottom: -20px;
     overflow: hidden;
+    right: 80%;
+    transform: translateX(44vw);
 }
 
 #section07 .img_box .number_box .box_text{
@@ -676,9 +696,10 @@
 #section07 .contents_box{
     position: absolute;
     bottom: 17px;
-    right: 0;
+    right: 50%;
     width: 498px;
     height: 471px;
+    transform: translateX(43vw);
 }
 
 #section07 .contents_box .text{
